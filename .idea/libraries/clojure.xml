@@ -2,8 +2,12 @@
   <library name="clojure">
     <CLASSES>
       <root url="jar:///opt/java/clojure/clojure-1.5.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.6.0/jedis-2.6.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/gnu/getopt/java-getopt/1.0.13/java-getopt-1.0.13.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/gnu/getopt/java-getopt/1.0.13/java-getopt-1.0.13.jar!/" />
+    </SOURCES>
   </library>
 </component>

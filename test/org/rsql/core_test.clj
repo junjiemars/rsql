@@ -2,6 +2,7 @@
   (:require [clojure.test :refer :all]
             [org.rsql.core :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 1 1))))
+(deftest core-test
+  (testing "core-test: org.rsql.core/parse-opts"
+    (is (= ["xxx"] (parse-opts ["xxx"])))))
+
